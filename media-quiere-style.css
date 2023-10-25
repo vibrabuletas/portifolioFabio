@@ -38,13 +38,13 @@
     /* proj */
     .proj{
         position: relative;
-        height: 900px;
+        height: 1200px;
         z-index: 0;
     }
 
     #proj3{
         position: absolute;
-        top: 400px;
+        top: 500px;
     }
 
     /* contato */

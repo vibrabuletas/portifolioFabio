@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #2E2F34;
+    color: white;
+    z-index: 0;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(15px);
+    z-index: 1;
+}
+
+header h1{
+    margin-top: 20px;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+.as{
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.as:hover{
+    background-color: white;
+    color: #2E2F34;
+}
+
+#menu{
+    display: none;
+}
+
+/* secção home */
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.div_text{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    transform: translateX(100px);
+}
+
+.div_text h1{
+    font-size: 4em;
+    width: 14ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(14), blinking .5s;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }to{
+        width: 14ch;
+    }
+}
+
+@keyframes blinking {
+    50%{
+        border-color: transparent
+    }
+}
+
+.div_text button:hover{
+    box-shadow: 0 0 30px white;
+}
+
+.div_text h2{
+    font-size: 3em;
+}
+
+.eu{
+    width: 500px;
+    margin: 100px 50px 0 50px;
+}
+
+.skill{
+    width: 600px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.div_text button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E2F34;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0 0 100px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* Sobre */
+
+.sobre{
+    background-image: url('imgs/fundo.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.div_sobre{
+    margin-top: 100px;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    color: #2E2F34;
+    border-radius: 30px;
+}
+
+.div_sobre h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.p_sobre{
+    width: 600px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+/* secção projetos */
+
+.proj{
+    text-align: center;
+    height: 800px;
+}
+
+.proj h1{
+    font-size: 4em;
+    transform: translateY(100px);
+}
+
+.div_projs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box_projs{
+    width: 400px;
+    text-align: justify;
+}
+
+.box_projs h2{
+    margin-top: 200px;
+}
+
+.div_projs h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* secção contatos */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    background-image: url('imgs/fundo2.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.div_contact{
+    margin: 200px 0;
+}
+
+.icons{
+    width: 150px;
+    margin: 0 50px;
+    border-radius: 50%;
+}
+
+.trail{
+    width: 170px;
+}
+
+.icons:hover{
+    box-shadow: 0 0 30px white;
+}

@@ -1,0 +1,193 @@
+@media screen and (min-width: 900px) and (max-width: 1250px){
+
+    /* secção home */
+
+    .home{
+        height: 500px;
+    }
+
+    .div_text{
+        width: 600px;
+        align-items: center;
+        transform: translateX(0);
+    }
+
+    .div_text h1 {
+        font-size: 3.5em;
+    }
+
+    .div_text h2 {
+        font-size: 2.5em;
+    }
+
+    .eu {
+        width: 400px;
+        margin: 0px 50px;
+    }
+
+    .skill {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .div_text button {
+        font-size: 16px;
+        margin: 30px 0 0 0;
+    }
+
+    /* proj */
+    .proj{
+        position: relative;
+        height: 900px;
+        z-index: 0;
+    }
+
+    #proj3{
+        position: absolute;
+        top: 400px;
+    }
+
+    /* contato */
+
+    .div_contact {
+        margin: 50px 0;
+    }
+
+    .icons {
+        width: 100px;
+        margin: 0 20px;
+    }
+
+    .trail {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        backdrop-filter: none;
+    }
+
+    header h1 {
+        margin-top: 30px;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .as {
+        margin-top: 20px;
+        transform: translateX(70px);
+        background-color: white;
+        color: #34353A;
+    }
+
+    #menu {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    /* secção home */
+
+    .home {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div_text {
+        align-items: center;
+        width: 500px;
+        margin-top: 120px;
+        transform: translateX(0);
+    }
+
+    .div_text h1 {
+        font-size: 3em;
+    }
+
+    .div_text h2 {
+        font-size: 2em;
+    }
+
+    .eu {
+        width: 300px;
+        margin: 0px 50px;
+    }
+
+    .skill {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .div_text button {
+        font-size: 16px;
+        margin: 30px 0 0 0;
+    }
+
+    /* Sobre */
+
+    .div_sobre {
+        width: 400px;
+        height: 550px;
+    }
+
+    .div_sobre h1 {
+        font-size: 3em;
+    }
+
+    .p_sobre {
+        width: 300px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* secção projetos */
+
+    .proj {
+        text-align: center;
+        height: 100%;
+    }
+
+    .proj h1 {
+        font-size: 3em;
+        transform: translateY(60px);
+        margin-bottom: 50px;
+    }
+
+    .div_projs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_projs {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .box_projs h2 {
+        margin-top: 50px;
+    }
+
+    /* secção contatos */
+
+    .div_contact {
+        margin: 50px 0;
+    }
+
+    .icons {
+        width: 50px;
+        margin: 0 20px;
+    }
+
+    .trail {
+        width: 60px;
+    }
+}

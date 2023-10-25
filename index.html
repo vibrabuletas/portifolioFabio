@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-quiere-style.css">
+    <script defer src="js.js"></script>
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <h1>Portifólio</h1>
+        <nav id="nav">
+            <a href="#" class="as">Home</a>
+            <a href="#sobre" class="as">Sobre mim</a>
+            <a href="#proj" class="as">Projetos</a>
+            <a href="#contact" class="as">Contato</a>
+        </nav>
+        <img src="imgs/hamburger.png" id="menu" onclick="ham()">
+    </header>
+    <main>
+        <!-- secção home-->
+        <section class="home">
+            <div class="div_text">
+                <h1>Fabio Granelli</h1>
+                <h2 class="test">Salesforce Admin</h2>
+                <p class="skill">Habilidades Técnicas | Linguagens de Programação | Apex (SOQL, SOSL) | Visualforce | Lightning Components |
+                    (Aura e LWC) | JavaScript | HTML/CSS | SQL</p>
+                <a href="#contact"><button>Contato</button></a>
+            </div>
+            <img src="imgs/fabio.png" alt="eu" class="eu">
+        </section>
+
+        <!-- secção sobre mim-->
+        <section class="sobre" id="sobre">
+            <div class="div_sobre">
+                <h1>Sobre mim</h1>
+                <p class="p_sobre">Sou Fabio Granelli,<br>
+                    Minha jornada teve início quando, aos 14 anos, me tornei voluntário em uma escola de informática voltada para pessoas carentes.<br>
+                    
+                    Aos 19 anos, fui além e assumi o papel de instrutor na mesma escola, desempenhando essa função até o seu encerramento devido à falta de recursos públicos.<br>
+                    
+                    Durante a pandemia, enquanto atuava como motorista de aplicativo, minha vida tomou um rumo surpreendente. Uma conversa com uma passageira me apresentou ao fascinante mundo do Salesforce, um ecossistema tecnológico que instantaneamente cativou minha atenção.<br>
+                    
+                    Determinado a ampliar minhas habilidades e contribuir para a indústria de tecnologia, embarquei em uma jornada de aprendizado autodidata através do Trailhead, a plataforma de treinamento da Salesforce. Minha busca por conhecimento me levou a ingressar no bootcamp de Desenvolvedor Salesforce oferecido pela SoulCode Academy.</p>
+            </div>
+        </section>
+
+        <!-- secção dos projetos-->
+        <section class="proj" id="proj">
+            <h1>Meus projetos</h1>
+            <div class="div_projs">
+                <div class="box_projs">
+                    <h2>Mercado Imobiliário</h2>
+                    
+                        <p><ol>Captação de Leads Eficiente:</ol>
+
+                            <li>Implementação de formulários personalizados em páginas da web ou landing pages usando Visualforce ou Lightning Web Components (LWC).</li>
+                            <li>Utilização de gatilhos Apex para automatizar a criação de registros de leads no Salesforce quando um formulário é preenchido.</li>
+                            <li>Integração de APIs de terceiros para importar leads de fontes externas, como websites imobiliários, diretamente para o Salesforce.</li>
+                            <br>
+                            <ol>Gestão Inteligente de Leads:</ol>
+                            <li>Criação de campos personalizados para categorizar leads, como "Interessado em Comprar" ou "Interessado em Alugar".</li>
+                            <li>Implementação de fluxos de trabalho e regras de validação para priorizar e atribuir automaticamente leads aos corretores com base em critérios predefinidos.</li>
+                            <li>Desenvolvimento de painéis e relatórios personalizados para acompanhar o status e o progresso dos leads, identificando gargalos e oportunidades de melhoria.</li>
+                        </p>
+                </div>
+                <div class="box_projs">
+                    <h2>Perfumaria</h2>
+                    <p><ol>Integração com WhatsApp Business API:</ol>
+                        <li>Configurei a integração entre o WhatsApp Business API e o Salesforce para permitir a troca de mensagens automatizadas.</li>
+                        <li>Usei Apex para criar uma ponte de comunicação entre o WhatsApp e o Salesforce.</li>
+                        <br>
+                        <ol>Criação de Formulários de Captação de Leads:</ol>
+                        <li>Desenvolvi páginas Lightning Web Components (LWC) para criar formulários de captação de leads.</li>
+                        <li>Usei JavaScript e HTML/CSS para tornar os formulários interativos e atraentes para os clientes.</li>
+                        <br>
+                        <ol>Automação de Leads:</ol>
+                        <li>Configurei gatilhos Apex para automatizar a criação de registros de leads no Salesforce a partir dos dados coletados nos formulários de captação.</li>
+                        <li>Implementei validações para garantir a precisão dos dados dos leads.</li></p>
+                </div>
+                <div class="box_projs" id="proj3">
+                    <h2>Mercearia</h2>
+                    <p><ol>Configuração de Estoque e Produtos:</ol>
+                        <li>Criei objetos personalizados no Salesforce para gerenciar o estoque e os produtos, incluindo informações como nome, descrição, preço, quantidade em estoque, fornecedores e categoria de produtos.</li>
+                        <li>Usei SOQL para importar dados iniciais do estoque e produtos.</li>
+                        <br><ol>Vendas de Produtos:</ol>
+
+                        <li>Desenvolvi páginas Visualforce ou Lightning Web Components para permitir que a equipe da mercearia registre vendas de produtos.</li>
+                        <li>Integrei JavaScript para calcular o valor total da compra e atualizar o estoque automaticamente.</li>
+                        <br>
+                        <ol>Automatização de Estoque:</ol>
+
+                        <li>Implementei gatilhos Apex para atualizar automaticamente os níveis de estoque à medida que as vendas são registradas.</li>
+                        <li>Criei alertas para notificar a equipe de reposição de estoque quando os níveis atingem um limite mínimo.</li>
+                    
+                    
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- seção do contato-->
+        <section class="contact" id="contact">
+            <div class="div_contact">
+                <a href="https://www.instagram.com/fabiogranelli_" target="_blank"><img src="imgs/instagram.png" class="icons"></a>
+                <a href="https://www.salesforce.com/trailblazer/fgranelli" target="_blank"><img src="imgs/trail.png" class="icons trail"></a>
+                <a href="https://www.linkedin.com/in/fabiogranellicosta/" target="_blank"><img src="imgs/linkedin.png" class="icons"></a>
+                <a href="https://wa.me/5515991190326" target="_blank"><img src="imgs/whatsapp.png" class="icons"></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
